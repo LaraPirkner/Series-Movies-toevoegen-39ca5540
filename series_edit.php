@@ -23,7 +23,7 @@ foreach ($sth as $row) {
     echo  "<p>Rating <input type='float' name='Rating' value=" . $rating . "></p>";
     echo  "<p>Seasons <input type='number' name='Season' value=" . $season . "></p>";
     echo  "<p>Country <input type='text' name='Country' value=" . $country . "></p>";
-    echo  "<p>Langauge <input type='text' name='Language' value=" . $language . "></p>";
+    echo  "<p>Language <input type='text' name='Language' value=" . $language . "></p>";
     echo  "<p>Awards <input type='text' name='Awards' value=" . $awards . "></p>";
     echo  "<p>Description <textarea type='text' name='Description' 
     rows='15' cols='40'>" . $description . "</textarea></p>";

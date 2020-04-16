@@ -16,6 +16,7 @@
 <?php
 require 'includes/connect.php';
 
+echo "<p><a href='serie_create.php'>Add</a></p>";
 echo "<a href='index.php?sort=Title'>Title</a><a href='index.php?sort=Rating'>Rating</a>";
 
 /*print de info*/
@@ -39,6 +40,7 @@ echo "</table>"
 <div class="title">
 </div>
 <?php
+echo "<p><a href='film_create.php'>Add</a></p>";
 echo "<a href='index.php?sortF=Title'>Title</a><a href='index.php?sortF=Duur'>Duur</a>";
 
 echo "<table>";

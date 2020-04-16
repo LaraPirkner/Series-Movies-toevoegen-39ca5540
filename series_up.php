@@ -17,7 +17,7 @@
     $stnt->execute([$title,$rating,$description,
     $awards,$seasons,$country,$language,$id]);
 
-    echo "<body style='background-color:#de8cff'>";
+    echo "<body style='background-color:#CAEA84'>";
     echo "<p><a href='index.php'>Terug</a></p>" ;
 
 ?>

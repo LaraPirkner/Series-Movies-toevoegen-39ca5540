@@ -16,7 +16,7 @@
     $stnt->execute([$title,$duur,$datum,
     $land,$description,$video,$id]);
 
-    echo "<body style='background-color:#de8cff'>";
+    echo "<body style='background-color:#CAEA84'>";
     echo "<p><a href='index.php'>Terug</a></p>" ;
 
 ?>
