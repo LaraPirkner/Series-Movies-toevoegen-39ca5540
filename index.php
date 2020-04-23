@@ -24,7 +24,8 @@ echo "<table>";
 if (isset($_GET['sort'])) {
     $data = $pdo->query("SELECT * FROM series ORDER BY " . $_GET['sort'] . " ASC")->fetchAll();
 } else {
-$data = $pdo->query("SELECT * FROM series")->fetchAll();}
+    $data = $pdo->query("SELECT * FROM series")->fetchAll();
+}
 echo "<tr>";
 foreach ($data as $row) {
     echo "<td>" . $row['Title'] . "</td>";
@@ -46,7 +47,8 @@ echo "<table>";
 if (isset($_GET['sortF'])) {
     $data = $pdo->query("SELECT * FROM films ORDER BY " . $_GET['sortF'] . " ASC")->fetchAll();
 } else {
-$data = $pdo->query("SELECT * FROM films")->fetchAll();}
+    $data = $pdo->query("SELECT * FROM films")->fetchAll();
+}
 echo "<tr>";
 foreach ($data as $row) {
     echo "<td>" . $row['Title'] . "</td>"; 

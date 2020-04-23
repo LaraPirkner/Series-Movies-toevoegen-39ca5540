@@ -17,4 +17,4 @@
 
     echo "<body style='background-color:#C084EA'>";
     echo "<p><a href='index.php'>Terug</a></p>" ;
-?>
+    ?>
